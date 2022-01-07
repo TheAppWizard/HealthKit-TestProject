@@ -16,6 +16,10 @@ HealthKit App (2 Versions - with and without health kit)
 ## Permission from Info.plist
 <img width="888" alt="Screenshot 2022-01-07 at 9 03 05 PM" src="https://user-images.githubusercontent.com/70090469/148567508-eed08ef1-4a9b-4200-ac6c-d0117f09402b.png">
 
+## Project Structure 
+<img width="203" alt="Screenshot 2022-01-07 at 9 02 37 PM" src="https://user-images.githubusercontent.com/70090469/148567684-d1730a93-1399-4328-948b-66e2d44a60a0.png">
+
+
 
 
 
