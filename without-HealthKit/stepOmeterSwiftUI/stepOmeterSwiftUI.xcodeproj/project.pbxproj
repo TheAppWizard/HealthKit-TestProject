@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB6162E27869942008A282E /* stepOmeterSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB6162D27869942008A282E /* stepOmeterSwiftUIApp.swift */; };
+		5CB6163027869942008A282E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB6162F27869942008A282E /* ContentView.swift */; };
+		5CB6163227869943008A282E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB6163127869943008A282E /* Assets.xcassets */; };
+		5CB6163527869943008A282E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB6163427869943008A282E /* Preview Assets.xcassets */; };
+		5CB6163F27869A33008A282E /* walk.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CB6163C27869A33008A282E /* walk.json */; };
+		5CB6164027869A33008A282E /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CB6163D27869A33008A282E /* confetti.json */; };
+		5CB6164127869A33008A282E /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CB6163E27869A33008A282E /* heart.json */; };
+		5CB6164727869A9E008A282E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5CB6164627869A9E008A282E /* Lottie */; };
+		5CB6164927869AD9008A282E /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB6164827869AD9008A282E /* LottieView.swift */; };
+		5CB6164B27869B6B008A282E /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB6164A27869B6B008A282E /* SplashScreen.swift */; };
+		5CB6164F27869F56008A282E /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CB6164E27869F56008A282E /* loader.json */; };
+		5CB616512786A054008A282E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB616502786A054008A282E /* MainView.swift */; };
+		5CB616532786A103008A282E /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB616522786A103008A282E /* StepsView.swift */; };
+		5CB616582786B3BF008A282E /* cloader.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CB616562786B3BF008A282E /* cloader.json */; };
+		5CB616592786B3BF008A282E /* groovy.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CB616572786B3BF008A282E /* groovy.json */; };
+		5CB6165B2786C825008A282E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB6165A2786C825008A282E /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CB6162A27869942008A282E /* stepOmeterSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stepOmeterSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB6162D27869942008A282E /* stepOmeterSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepOmeterSwiftUIApp.swift; sourceTree = "<group>"; };
+		5CB6162F27869942008A282E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CB6163127869943008A282E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CB6163427869943008A282E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CB6163C27869A33008A282E /* walk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = walk.json; sourceTree = "<group>"; };
+		5CB6163D27869A33008A282E /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
+		5CB6163E27869A33008A282E /* heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
+		5CB6164827869AD9008A282E /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		5CB6164A27869B6B008A282E /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		5CB6164E27869F56008A282E /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
+		5CB616502786A054008A282E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5CB616522786A103008A282E /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		5CB616562786B3BF008A282E /* cloader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cloader.json; sourceTree = "<group>"; };
+		5CB616572786B3BF008A282E /* groovy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = groovy.json; sourceTree = "<group>"; };
+		5CB6165A2786C825008A282E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CB6162727869942008A282E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB6164727869A9E008A282E /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB6162127869942008A282E = {
+			isa = PBXGroup;
+			children = (
+				5CB6162C27869942008A282E /* stepOmeterSwiftUI */,
+				5CB6162B27869942008A282E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CB6162B27869942008A282E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB6162A27869942008A282E /* stepOmeterSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB6162C27869942008A282E /* stepOmeterSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5CB6164427869A76008A282E /* View */,
+				5CB6164227869A55008A282E /* Model */,
+				5CB6163B27869A33008A282E /* Lottie */,
+				5CB6162D27869942008A282E /* stepOmeterSwiftUIApp.swift */,
+				5CB6162F27869942008A282E /* ContentView.swift */,
+				5CB6163127869943008A282E /* Assets.xcassets */,
+				5CB6163327869943008A282E /* Preview Content */,
+			);
+			path = stepOmeterSwiftUI;
+			sourceTree = "<group>";
+		};
+		5CB6163327869943008A282E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5CB6163427869943008A282E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CB6163B27869A33008A282E /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				5CB616562786B3BF008A282E /* cloader.json */,
+				5CB616572786B3BF008A282E /* groovy.json */,
+				5CB6164E27869F56008A282E /* loader.json */,
+				5CB6163C27869A33008A282E /* walk.json */,
+				5CB6163D27869A33008A282E /* confetti.json */,
+				5CB6163E27869A33008A282E /* heart.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		5CB6164227869A55008A282E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB6164427869A76008A282E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CB6164827869AD9008A282E /* LottieView.swift */,
+				5CB6164A27869B6B008A282E /* SplashScreen.swift */,
+				5CB616502786A054008A282E /* MainView.swift */,
+				5CB616522786A103008A282E /* StepsView.swift */,
+				5CB6165A2786C825008A282E /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB6162927869942008A282E /* stepOmeterSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB6163827869943008A282E /* Build configuration list for PBXNativeTarget "stepOmeterSwiftUI" */;
+			buildPhases = (
+				5CB6162627869942008A282E /* Sources */,
+				5CB6162727869942008A282E /* Frameworks */,
+				5CB6162827869942008A282E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stepOmeterSwiftUI;
+			packageProductDependencies = (
+				5CB6164627869A9E008A282E /* Lottie */,
+			);
+			productName = stepOmeterSwiftUI;
+			productReference = 5CB6162A27869942008A282E /* stepOmeterSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB6162227869942008A282E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5CB6162927869942008A282E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5CB6162527869942008A282E /* Build configuration list for PBXProject "stepOmeterSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CB6162127869942008A282E;
+			packageReferences = (
+				5CB6164527869A9E008A282E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 5CB6162B27869942008A282E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CB6162927869942008A282E /* stepOmeterSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CB6162827869942008A282E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB616582786B3BF008A282E /* cloader.json in Resources */,
+				5CB616592786B3BF008A282E /* groovy.json in Resources */,
+				5CB6164F27869F56008A282E /* loader.json in Resources */,
+				5CB6163527869943008A282E /* Preview Assets.xcassets in Resources */,
+				5CB6164027869A33008A282E /* confetti.json in Resources */,
+				5CB6163227869943008A282E /* Assets.xcassets in Resources */,
+				5CB6164127869A33008A282E /* heart.json in Resources */,
+				5CB6163F27869A33008A282E /* walk.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB6162627869942008A282E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB6165B2786C825008A282E /* SettingsView.swift in Sources */,
+				5CB6164B27869B6B008A282E /* SplashScreen.swift in Sources */,
+				5CB6163027869942008A282E /* ContentView.swift in Sources */,
+				5CB616532786A103008A282E /* StepsView.swift in Sources */,
+				5CB6162E27869942008A282E /* stepOmeterSwiftUIApp.swift in Sources */,
+				5CB616512786A054008A282E /* MainView.swift in Sources */,
+				5CB6164927869AD9008A282E /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CB6163627869943008A282E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CB6163727869943008A282E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CB6163927869943008A282E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stepOmeterSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 56ZBSRTSDR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyasvilaschandrabhike.stepOmeterSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CB6163A27869943008A282E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stepOmeterSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 56ZBSRTSDR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyasvilaschandrabhike.stepOmeterSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB6162527869942008A282E /* Build configuration list for PBXProject "stepOmeterSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB6163627869943008A282E /* Debug */,
+				5CB6163727869943008A282E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB6163827869943008A282E /* Build configuration list for PBXNativeTarget "stepOmeterSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB6163927869943008A282E /* Debug */,
+				5CB6163A27869943008A282E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CB6164527869A9E008A282E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5CB6164627869A9E008A282E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CB6164527869A9E008A282E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5CB6162227869942008A282E /* Project object */;
+}
