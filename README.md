@@ -13,6 +13,10 @@ HealthKit App (2 Versions - with and without health kit)
 ## Adding Health Kit (From Sign In and Capabilities)
 <img width="840" alt="Screenshot 2022-01-07 at 9 02 50 PM" src="https://user-images.githubusercontent.com/70090469/148567055-c9905899-c1db-4b83-b40e-85fc88939150.png">
 
+## Permission from Info.plist
+<img width="888" alt="Screenshot 2022-01-07 at 9 03 05 PM" src="https://user-images.githubusercontent.com/70090469/148567508-eed08ef1-4a9b-4200-ac6c-d0117f09402b.png">
+
+
 
 
 ## Tested on Simulator 
